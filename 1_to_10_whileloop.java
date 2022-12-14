@@ -1,4 +1,4 @@
-class forloop
+class whileloop
 {
     public static void main(String args[])
     {
