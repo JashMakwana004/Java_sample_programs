@@ -19,7 +19,7 @@ class forloop
                 counteven = counteven + 1;
             }
         }
-        System.out.println(countodd);
-        System.out.println(counteven);
+        System.out.println("odd : "+countodd);
+        System.out.println("even : "+counteven);
     }
 }
