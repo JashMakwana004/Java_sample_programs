@@ -20,6 +20,6 @@ class Box{
     public void volume()
     {
         
-        System.out.println(length*breadth*heigth;);
+        System.out.println(length*breadth*heigth);
     }
 }
