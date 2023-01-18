@@ -3,26 +3,18 @@ class Boxdemo
 {
     public static void main(String args[])
     {
-        Box b = new Box();
-        int limit = 10;
-        for(int i = 0;i<limit;i++)
-        {
-            System.out.println(f.fibonacciseries(i));
-        }
+        int n = sin.nextInt();
+        Fact f = new Fact();
+        System.out.println(f.factorial(n));
     }
 }
-class Box
-{
-    public int fibonacciseries(int n)
+class Box{
+    public int factorial(int n)
     {
-        if(n==0)
+        if(n=0)
         {
-            return 0;
+            return 1;
         }
-        if(n==1||n==2)
-        {
-            return1;
-        }
-        return(fibonacciseries(n-2)+fibonacciseries(n-1));
+        return n*factorial(n-1);
     }
 }
