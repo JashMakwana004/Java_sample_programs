@@ -3,7 +3,7 @@ class Boxdemo
 {
     public static void main(String args[])
     {
-
+          
     }
 }
 class Box
